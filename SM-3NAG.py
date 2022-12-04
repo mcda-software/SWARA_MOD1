@@ -859,12 +859,12 @@ if pagina == 'Cálculo':
                 - Etapa 6 - Ordenação Absoluta Global.
                 '''
                 #tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([ 
-                                                    "📊 Etapa 1",
-                                                    "📊 Etapa 2",
-                                                    "📊 Etapa 3", 
-                                                    "📊 Etapa 4",
-                                                    "📈 Etapa 5",
-                                                    "💻 Etapa 6"])   #🔍
+                #                                    "📊 Etapa 1",
+                 #                                   "📊 Etapa 2",
+                  #                                  "📊 Etapa 3", 
+                   #                                 "📊 Etapa 4",
+                    #                                "📈 Etapa 5",
+                     #                               "💻 Etapa 6"])   #🔍
      
                 #with tab1:
                 st.markdown(f"<h2 style = 'text-align: center;'>Valores relacioanos ao Método SWARA - Peso dos Critérios</h2>", unsafe_allow_html=True)
