@@ -386,7 +386,7 @@ if pagina == 'Cálculo':
             imprime_matriz_potencia = pd.DataFrame(data = matriz_potencia, index = lista_alternativas, columns = lista_criterios)
         
             lista_soma_dos_valores_quadrados_x = np.sum(matriz_potencia, axis=0)    #somando as colunas da matriz potencia (axis=0)
-            lista_soma_dos_valores_quadrados = lista_soma_dos_valores_quadrados_x.astype(np.float)  #Transformando o array em float
+            lista_soma_dos_valores_quadrados = lista_soma_dos_valores_quadrados_x.astype(float)  #Transformando o array em float
 
             raiz = np.sqrt(lista_soma_dos_valores_quadrados)
             SM = ['SOMA DOS QUADRADOS']
