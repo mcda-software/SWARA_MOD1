@@ -1104,7 +1104,7 @@ if pagina == 'Cálculo':
                         dist_abs_glo_pd.to_excel(writer, sheet_name='Ordenação Absoluta Global')
                         
                         # Close the Pandas Excel writer and output the Excel file to the buffer
-                        writer.save()
+                        writer.close()
                         st.markdown("<h3 style = 'text-align: center;'>Para Baixar todas as Matrizes, em um só documento, clique no botão:</h3>", unsafe_allow_html=True)
                         col1, col2, col3 = st.columns(3)
                         with col2:
